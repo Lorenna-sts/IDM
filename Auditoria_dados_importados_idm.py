@@ -13,8 +13,8 @@ def normalizar(texto):
     return unicodedata.normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII').lower().strip()
 
 def auditar_dados():
-    caminho_origem = r"Z:\GEDE\BDE - Banco de Dados\Banco de Informações\IDM\IDM 2024\idm_panel_com_dimensoes.xlsx"
-    caminho_destino = r"Z:\GEDE\BDE - Banco de Dados\2025\IDM\idm-BDE_2024.csv"
+    caminho_origem = r"CAMINHO DO ARQUIVO"
+    caminho_destino = r"CAMINHO DO ARQUIVO"
 
     print("--- AUDITORIA DE DADOS (TIRA-TEIMA) ---")
     
@@ -109,4 +109,5 @@ def auditar_dados():
     print("DICA: Abra o CSV clicando com botão direito -> Abrir com -> Bloco de Notas para ver o real.")
 
 if __name__ == "__main__":
+
     auditar_dados()
