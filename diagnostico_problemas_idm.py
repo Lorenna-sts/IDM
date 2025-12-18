@@ -1,7 +1,7 @@
 import pandas as pd
 
 def diagnosticar_problemas_idm():
-    caminho_origem = r"Z:\GEDE\BDE - Banco de Dados\Banco de Informações\IDM\IDM 2024\idm_panel_com_dimensoes.xlsx"
+    caminho_origem = r"CAMINHO DO ARQUIVO"
 
     print(f"--- DIAGNÓSTICO DO ARQUIVO: {os.path.basename(caminho_origem)} ---\n")
     
@@ -57,4 +57,5 @@ def diagnosticar_problemas_idm():
 
 if __name__ == "__main__":
     import os
+
     diagnosticar_problemas_idm()
