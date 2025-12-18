@@ -40,8 +40,8 @@ def converter_para_float(valor):
         return None
 
 def transferir_dados_idm_final():
-    caminho_origem = r"Z:\GEDE\BDE - Banco de Dados\Banco de Informações\IDM\IDM 2024\idm_panel_com_dimensoes.xlsx"
-    caminho_destino = r"Z:\GEDE\BDE - Banco de Dados\2025\IDM\idm-BDE_2024.csv"
+    caminho_origem = r"CAMINHO DO ARQUIVO"
+    caminho_destino = r"CAMINHO DO ARQUIVO"
 
     print("--- INICIANDO IMPORTAÇÃO COM 2 CASAS DECIMAIS ---")
     
@@ -160,4 +160,5 @@ def transferir_dados_idm_final():
         print("ERRO: O arquivo está aberto no Excel. Feche-o e tente novamente.")
 
 if __name__ == "__main__":
+
     transferir_dados_idm_final()
